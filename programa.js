@@ -36,7 +36,7 @@ function media(){
     let campo_x = document.getElementById('x');
     let campo_y = document.getElementById('y');
     let campo_z = document.getElementById('z');
-    
+
     //Casting: Transformar de manera explícita el tipo
     //de dato de una variable en js 
     let x=parseInt(campo_x.value);
@@ -44,9 +44,7 @@ function media(){
     let z=parseInt(campo_z.value);
 
     let promedio= (x+y+z)/3;
-
     console.log(promedio);
-
     return promedio;
     
 }
